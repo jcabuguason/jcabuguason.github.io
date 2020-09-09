@@ -420,9 +420,10 @@ ul{
     }
     
     
-#sentence2,#sentence4{
-    font-size: 50px;
-}
+    #sentence2,#sentence4{
+        font-size: 50px;
+        color: whitesmoke;
+    }
     
     #navbar{
         display: none;
@@ -510,11 +511,6 @@ ul{
      body{
         padding: 0px;
         margin: 0px;
-    }
-     
-    
-    #sentence4{
-        color: whitesmoke;
     }
     
     #social{

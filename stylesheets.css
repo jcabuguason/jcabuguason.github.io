@@ -402,7 +402,7 @@ ul{
     
 
      body{
-        padding-top: 0px;
+        padding: 0px 10px;
     }
         
     .header-sentence{
@@ -422,7 +422,6 @@ ul{
     
     #sentence2,#sentence4{
         font-size: 50px;
-        color: #F5F5F5;
     }
     
     #navbar{

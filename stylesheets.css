@@ -217,7 +217,7 @@ ul{
     flex-direction: row-reverse;
 }
 
-.featured-projects img{
+.featured-projects > img{
      max-width: 400px;
      height: auto;
 }

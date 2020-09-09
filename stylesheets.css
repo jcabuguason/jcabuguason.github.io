@@ -508,7 +508,7 @@ ul{
 
 @media screen and (max-width: 500px){
      body{
-        padding: 0px;
+        padding: 0px 5px;
         margin: 0px;
     }
     

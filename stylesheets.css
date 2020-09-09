@@ -14,7 +14,7 @@ body{
     color: #F5F5F5;
     font-family: 'IBM Plex Sans', sans-serif;
     margin: 0px;
-    padding: 250px 200px;
+    padding: 100px 200px 250px 200px;
 }
 
 section{
@@ -42,15 +42,17 @@ h3{
     font-size: 25px;
 }
 
-img{
+.featured-projects>img, #profile-pic{
     background: white;
     z-index: 0;
     filter: brightness(40%);
-    transition: all 0.5s; 
+    transition: all 0.5s;
+    border-radius: 30%;
 }
 
-img:hover{
+.featured-projects>img:hover , #profile-pic:hover{
     filter: brightness(100%);
+     border-radius: 4%;
 }
 
 
@@ -98,8 +100,12 @@ img:hover{
 .nav-links{
      padding: 20px;
      font-size: 15px;
+     transition: 0.5s;
 }
 
+.nav-links:hover{
+    background: #1a1d4d;
+}
 #last{
  margin-right: 50px;  
 }
@@ -114,6 +120,10 @@ img:hover{
 
 .header-sentence{
     margin: 0px;
+    position: relative;
+    top: 0px;
+    transition: all 0.8s;
+    opacity: 0;
 }
 
 #sentence1{
@@ -122,6 +132,7 @@ img:hover{
 }
 
 #sentence2{
+    
     font-size: 80px;
 }
 
@@ -253,11 +264,64 @@ ul{
     padding: 20px;
 }
 .database-projects{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin: 10px 10px;
     height: 300px;
     width: 320px;
     background: #1a1d4d;
 }
+
+
+.database-projects > p{
+   width: 90%;
+   text-align: left;
+}
+
+.unavailable > p{
+    text-align: center;
+}
+
+.database-projects>img{
+    position: relative;
+    bottom: 0px;
+    width: 35px;
+    height: auto;
+    filter: invert(100%);
+    margin-bottom: 25px;
+}
+
+.database-projects>img:hover{
+    cursor: pointer;
+    
+}
+
+.unloaded{
+    display:none;
+}
+
+#load-projects{
+    margin: 0px 200px;
+    font-size: 15px;
+    margin-top: 50px;
+    color: whitesmoke;
+    background: #1a1d4d;
+    border-color: rgba(26, 29, 77,0.8);
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    transition: 1.2s;
+}
+
+#load-projects:hover{
+    background: rgb(35, 29, 140);
+}
+
+
 
 #social{
     display: flex;
@@ -280,6 +344,16 @@ ul{
     filter: invert(50%);
 }
 
+
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (min-width: 1800px) {
+   
+    body{
+        padding-top: 120px;
+    }
+}
 
 
 /* Media Queries: Tablet Landscape */
@@ -324,9 +398,14 @@ ul{
     
 
      body{
-        padding-top: 240px;
+        padding-top: 0px;
     }
         
+    .header-sentence{
+        position:static;
+    }
+    
+    
     #profile-pic{
         max-width: 300px;
         height: auto;
@@ -416,6 +495,7 @@ ul{
     #summary{
         top: 100px;
         height: 50px;
+        position: relative;
     }
 }
 
@@ -425,6 +505,7 @@ ul{
     }
         
     #social{
+        margin: 20px 0px 100px 0px;;
          position: relative;
          flex-direction: row;
     }
@@ -456,5 +537,5 @@ ul{
         z-index: 3;
     }  
     
-
+    
 }

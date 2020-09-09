@@ -551,4 +551,12 @@ ul{
         padding: 0px;
         margin: 0px;
     }
+    
+    #sentence4{
+        color: whitesmoke;
+    }
+    
+    #summary{
+        margin-bottom: 40px;
+    }
 }

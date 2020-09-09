@@ -54,7 +54,7 @@ h3{
     border-radius: 30%;
 }
 
-.featured-projects>img:hover , #profile-pic:hover{
+.featured-projects>img:hover {
     filter: brightness(100%);
      border-radius: 4%;
 }
@@ -163,12 +163,16 @@ h3{
 }
 
 #profile-pic{
-    width: 100%;
+    max-width: 300px;
     height: auto;
     align-self:flex-start;
     border-style: solid;
     border-width: 0px;
     border-color: #333d81;
+}
+
+#profile-pic:hover{
+    filter: brightness(70%);
 }
 
 #profile-text{
@@ -214,8 +218,12 @@ ul{
 }
 
 .featured-projects img{
-     width: 400px;
+     max-width: 400px;
      height: auto;
+}
+
+#project2 img{
+    max-width: 300px;
 }
 
 .project-summary{

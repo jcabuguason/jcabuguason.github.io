@@ -512,7 +512,7 @@ ul{
     }
         
     #social{
-        margin: 20px 0px 100px 0px;;
+        margin: 60px 0px 100px 0px;;
          position: relative;
          flex-direction: row;
     }
@@ -543,5 +543,12 @@ ul{
         left: 0%;
         z-index: 3;
     }  
-    
+}
+
+
+@media screen and (max-width: 400px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
 }

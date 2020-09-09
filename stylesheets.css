@@ -222,6 +222,9 @@ ul{
      height: auto;
 }
 
+#project1 >img{
+    max-width: 500px;
+}
 #project2 img{
     max-width: 300px;
 }

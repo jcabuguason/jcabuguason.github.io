@@ -46,7 +46,7 @@ h3{
     font-size: 25px;
 }
 
-.featured-projects>img, #profile-pic{
+.featured-projects img, #profile-pic{
     background: white;
     z-index: 0;
     filter: brightness(40%);
@@ -54,7 +54,7 @@ h3{
     border-radius: 30%;
 }
 
-.featured-projects>img:hover {
+.featured-projects img:hover {
     filter: brightness(100%);
      border-radius: 4%;
 }
@@ -222,8 +222,12 @@ ul{
      height: auto;
 }
 
+.featured-projects h4{
+    color: #00F5D4;
+}
+
 #project2 img{
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .project-summary{
@@ -297,7 +301,7 @@ ul{
     text-align: center;
 }
 
-.database-projects>img{
+.database-projects img{
     position: relative;
     bottom: 0px;
     width: 35px;
@@ -306,7 +310,7 @@ ul{
     margin-bottom: 25px;
 }
 
-.database-projects>img:hover{
+.database-projects img:hover{
     cursor: pointer;
 }
 
@@ -467,7 +471,7 @@ ul{
         font-size: 18px;
     }
     
-    .featured-projects>img{
+    .featured-projects img{
      max-width: 100%;
      max-height: 300px;
      height: auto;
@@ -533,7 +537,7 @@ ul{
     }
     
     
-     .featured-projects>img{
+     .featured-projects img{
      max-width: 100%;
      max-height: none;
      height: auto;
